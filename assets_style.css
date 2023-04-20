@@ -1,0 +1,85 @@
+.box1 h1{
+  color: white;
+  padding: 20px;
+  float: left;
+  position: fixed;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  float: none;
+  margin-left: 80%;
+  position: fixed;
+  
+}
+li{
+  float: left
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: rgb(28, 196, 226);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: monospace
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+  width: 50%;
+  float: left;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url(images/ASS1.png); }
+.img2 { background-image: url(images/ASS2.png); }
+.img3 { background-image: url(images/ASS3.png); }
+.img4 { background-image: url(images/ASS4.png); }
+.img5 { background-image: url(images/ASS5.png); }
+.img6 { background-image: url(images/ASS6.png); }
+.img7 { background-image: url(images/ASS7.png); }
+.img8 { background-image: url(images/ASS8.png); }
+.img9 { background-image: url(images/ASS9.png); }
+.img10 { background-image: url(images/ASS10.png); }
+.img11 { background-image: url(images/ASS11.png); }
+.img12 { background-image: url(images/ASS12.png); }
+.img13 { background-image: url(images/ASS13.png); }
+.img14 { background-image: url(images/ASS14.png); }
+.img15 { background-image: url(images/ASS15.png); }
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  font-family:  monospace;
+}

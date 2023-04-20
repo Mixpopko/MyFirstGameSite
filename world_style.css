@@ -1,0 +1,74 @@
+
+.box1 h1{
+  color: white;
+  padding: 20px;
+  float: left;
+  position: fixed;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  float: none;
+  margin-left: 80%;
+  position: fixed;
+  
+}
+li{
+  float: left
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: rgb(28, 196, 226);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: monospace
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  height: 50%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url(images/BGW1.png); }
+.img2 { background-image: url(images/BGW2.png); }
+.img3 { background-image: url(images/BGW3.png); }
+.img4 { background-image: url(images/BGW4.png); }
+.img5 { background-image: url(images/BGW5.png); }
+.img6 { background-image: url(images/BGW6.png); }
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  font-family: monospace;
+}
